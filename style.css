@@ -9,12 +9,23 @@ a {
   text-decoration: none;
 }
 
-/*Small thing for project title*/
+/*Small thing for project title and others*/
 .projects-title {
   text-decoration: underline;
   margin-left: 20px;
 }
+.contact-title {
+  text-decoration: underline;
+  margin-left: 20px;
+  margin-top: 200px;
+}
 
+/*Contact info*/
+.contact-info{
+    p{
+        margin-left: 20px;
+    }
+}
 
 /*The box for the project cards*/
 .project-card{
@@ -58,6 +69,7 @@ a {
   }
 }
 
+/*Changes the links section*/
 .Links{
     h2{
         margin-bottom: 20px;
