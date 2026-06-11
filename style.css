@@ -1,3 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(170, 186, 192);
+/*This changes the font from left to right and if the first is not avalable it goes to the next*/
+  font-family: "Inter", Arial, sans-serif;
 }
