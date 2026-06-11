@@ -3,3 +3,22 @@ body {
 /*This changes the font from left to right and if the first is not avalable it goes to the next*/
   font-family: "Inter", Arial, sans-serif;
 }
+
+/*The box for the project cards*/
+.project-card{
+    /*Padding is how ever many pixels on each side so you have space inside the element*/
+    padding: 20px;
+
+    /*Border uses width then line style then color*/
+    border: 1px solid #ccc;
+
+    /*Controls how rounded the corners are*/
+    border-radius: 10px;
+
+    /*Color of the cards background*/
+    background: #f9f9f9;
+
+    /*Add a shdow behind the card*/
+    /*Horizontal offset, Vertical offset, blur radius, RGB and opacity*/
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
