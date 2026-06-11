@@ -9,6 +9,13 @@ a {
   text-decoration: none;
 }
 
+/*Small thing for project title*/
+.projects-title {
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+
 /*The box for the project cards*/
 .project-card{
     /*Makes the box fit the content so it does not take up the whoel screen*/
@@ -29,17 +36,39 @@ a {
     /*Add a shdow behind the card*/
     /*Horizontal offset, Vertical offset, blur radius, RGB and opacity*/
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+    margin-left: 20px;
 }
 
 /*Change the main header which is my name and opening*/
 .main-header {
   h1 {
+    /*Makes it center and how much space it has*/
     text-align: center;
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-decoration: underline;
   }
   p {
+    /**/
     text-align: center;
     margin: 20px;
     font-size: large;
+    font-weight: bolder;
   }
+}
+
+.Links{
+    h2{
+        margin-bottom: 20px;
+        margin-left: 20px;
+        text-decoration: underline;
+    }
+    a{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+        /*Block puts it on it's own line so they can be spaced*/
+        display: block;
+    }
 }
