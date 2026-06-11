@@ -6,6 +6,9 @@ body {
 
 /*The box for the project cards*/
 .project-card{
+    /*Makes the box fit the content so it does not take up the whoel screen*/
+    width: fit-content;
+
     /*Padding is how ever many pixels on each side so you have space inside the element*/
     padding: 20px;
 
