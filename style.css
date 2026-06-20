@@ -21,19 +21,49 @@ a {
 /*Small thing for project title and others*/
 .projects-title {
   text-decoration: underline;
-  margin-left: 20px;
+  padding: 20px;
 }
+
+.project-section{
+
+    background: #8fa3ad;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+
 .contact-title {
   text-decoration: underline;
-  margin-left: 20px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 /*Contact info*/
 .contact-info{
-    p{
-        margin-left: 20px;
-    }
+
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 30px;
+  /*horizontal then vertical then blur radius then color*/
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+
+  a{
+    color: rgb(81, 112, 139);
+    /*Make it bolder*/
+    font-weight: 600;
+
+  }
+
+  /*When a button is hovered or clicked*/
+  a:hover{
+    border: 2px solid #2b6cb0;
+  }
+
+  a:focus{
+    border: 2px solid black;
+  }
 }
 
 /*The box for the project cards*/
@@ -60,6 +90,32 @@ a {
     /*Include pading inside the width don't add it ontop*/
     box-sizing: border-box;
 
+
+    /*For the links*/
+  a{
+
+    display: inline-block;
+
+    background-color: #3182ce;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px;
+
+    /*Make it bolder*/
+    font-weight: 600;
+
+  }
+
+  /*When a button is hovered or clicked*/
+  a:hover{
+    border: 2px solid #2b6cb0;
+  }
+
+  a:focus{
+    border: 2px solid black;
+  }
+
 }
 
 /*Change the main header which is my name and opening*/
@@ -67,33 +123,65 @@ a {
   h1 {
     /*Makes it center and how much space it has*/
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 30px;
     text-decoration: underline;
   }
   p {
-    /**/
     text-align: center;
     margin: 20px;
     font-size: large;
     font-weight: bolder;
   }
+
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 30px;
+  /*horizontal then vertical then blur radius then color*/
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+
 }
 
 /*Changes the links section*/
 .Links{
-    h2{
-        margin-bottom: 20px;
-        margin-left: 20px;
-        text-decoration: underline;
-    }
-    a{
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 20px;
-        /*Block puts it on it's own line so they can be spaced*/
-        display: block;
-    }
+  h2{
+      margin-bottom: 20px;
+      margin-left: 5px;
+      text-decoration: underline;
+  }
+  a{
+
+      display: inline-block;
+
+      background-color: #3182ce;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin: 5px;
+
+      /*Make it bolder*/
+      font-weight: 600;
+
+  }
+
+  /*When a button is hovered or clicked*/
+  a:hover{
+    border: 2px solid #2b6cb0;
+  }
+
+  a:focus{
+    border: 2px solid black;
+  }
+
+
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 30px;
+  /*horizontal then vertical then blur radius then color*/
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  
 }
 
 
