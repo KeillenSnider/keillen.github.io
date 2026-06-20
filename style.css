@@ -48,6 +48,9 @@ a {
     /*Horizontal offset, Vertical offset, blur radius, RGB and opacity*/
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 
+    /*Include pading inside the width don't add it ontop*/
+    box-sizing: border-box;
+
 }
 
 /*Change the main header which is my name and opening*/
