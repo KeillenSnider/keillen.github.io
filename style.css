@@ -30,7 +30,7 @@ a {
 /*The box for the project cards*/
 .project-card{
     /*Makes the box fit the content so it does not take up the whoel screen*/
-    width: fit-content;
+    width: 100%;
 
     /*Padding is how ever many pixels on each side so you have space inside the element*/
     padding: 20px;
@@ -48,7 +48,6 @@ a {
     /*Horizontal offset, Vertical offset, blur radius, RGB and opacity*/
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 
-    margin-left: 20px;
 }
 
 /*Change the main header which is my name and opening*/
@@ -83,4 +82,20 @@ a {
         /*Block puts it on it's own line so they can be spaced*/
         display: block;
     }
+}
+
+
+.project-grid{
+
+  display: grid;
+
+  /*makes as many columns it can fit and each at least 300px wide*/
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+  /*Gap between each card*/
+  gap: 20px;
+
+  /*Padding inside each card*/
+  padding: 20px;
+
 }
