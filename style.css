@@ -13,10 +13,15 @@ body {
 
 }
 
+/*_______________________________________________________________________________________________________*/
+
 /*Links have no underline*/
 a {
   text-decoration: none;
 }
+
+
+/*_______________________________________________________________________________________________________*/
 
 /*Small thing for project title and others*/
 .projects-title {
@@ -34,37 +39,21 @@ a {
 }
 
 
-.contact-title {
-  text-decoration: underline;
-  margin-top: 10px;
+.project-grid{
+
+  display: grid;
+
+  /*makes as many columns it can fit and each at least 300px wide*/
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+  /*Gap between each card*/
+  gap: 20px;
+
+  /*Padding inside each card*/
+  padding: 20px;
+
 }
 
-/*Contact info*/
-.contact-info{
-
-  background: #f9f9f9;
-  border-radius: 10px;
-  padding: 30px;
-  /*horizontal then vertical then blur radius then color*/
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
-
-  a{
-    color: rgb(81, 112, 139);
-    /*Make it bolder*/
-    font-weight: 600;
-
-  }
-
-  /*When a button is hovered or clicked*/
-  a:hover{
-    border: 2px solid #2b6cb0;
-  }
-
-  a:focus{
-    border: 2px solid black;
-  }
-}
 
 /*The box for the project cards*/
 .project-card{
@@ -118,12 +107,50 @@ a {
 
 }
 
+
+/*_______________________________________________________________________________________________________*/
+
+
+.contact-title {
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+/*Contact info*/
+.contact-info{
+
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 30px;
+  /*horizontal then vertical then blur radius then color*/
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+
+  a{
+    color: rgb(81, 112, 139);
+    /*Make it bolder*/
+    font-weight: 600;
+
+  }
+
+  /*When a button is hovered or clicked*/
+  a:hover{
+    border: 2px solid #2b6cb0;
+  }
+
+  a:focus{
+    border: 2px solid black;
+  }
+}
+
+/*_______________________________________________________________________________________________________*/
+
 /*Change the main header which is my name and opening*/
 .main-header {
   h1 {
     /*Makes it center and how much space it has*/
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
     text-decoration: underline;
   }
@@ -134,14 +161,23 @@ a {
     font-weight: bolder;
   }
 
+  margin-top: 20px;
+
   background: #f9f9f9;
+  
   border-radius: 10px;
+  
   padding: 30px;
+  
   /*horizontal then vertical then blur radius then color*/
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  
   margin-bottom: 20px;
 
 }
+
+
+/*_______________________________________________________________________________________________________*/
 
 /*Changes the links section*/
 .Links{
@@ -185,17 +221,4 @@ a {
 }
 
 
-.project-grid{
-
-  display: grid;
-
-  /*makes as many columns it can fit and each at least 300px wide*/
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-
-  /*Gap between each card*/
-  gap: 20px;
-
-  /*Padding inside each card*/
-  padding: 20px;
-
-}
+/*_______________________________________________________________________________________________________*/
