@@ -124,6 +124,19 @@ img{
 
 }
 
+
+@media(max-width: 750px){
+
+  .navbar{
+
+    flex-direction: column;
+
+    padding-top: 40px;
+
+  }
+
+}
+
 /*_______________________________________________________________________________________________________________________*/
 
 .status-badge{
@@ -148,6 +161,20 @@ img{
   border-radius: 999px;
 
   animation: pulse 5s ease-in-out infinite;
+
+}
+
+@media(max-width: 750px){
+
+  .status-badge{
+
+    top: 5px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+  }
 
 }
 
