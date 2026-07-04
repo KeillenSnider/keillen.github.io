@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <title>Keillen's Projects</title>
+
+    <meta name="description" content="Portfolio of Keillen Snider — a software engineer skilled in Python, SQL, and interactive web development. Open to work and available to build modern, responsive websites and software solutions.">
     
     <!--Used to have the most amount characters so everyone can view it-->
     <meta charset="UTF-8">
@@ -17,94 +19,225 @@
 </head>
 
 <body>
-    <div class = "main-header">
-        <h1>Keillen Snider's Workshop</h1>
-        <!--Introduction to the site-->
-        <p>
-            
-            Software Engineering graduate from Sam Houston State University.
-            Building projects across full-stack web, data, and system development to broaden my skills.
-            Currently seeking software engineering roles.
+    
 
-        </p>
-    </div>
+    <nav class = "navbar">
 
-    <!--Links to differnt sites-->
-    <div class = "Links">
-        <h2>Links</h2>
-        <a href="https://github.com/KeillenSnider" target="_blank">GitHub Link</a>
-        <a href="https://www.linkedin.com/in/keillen-snider-80673b381/?skipRedirect=true" target="_blank">LinkedIn Link</a>
-    </div>
+        <!-- span makes it not start a new line-->
+        <span class = "status-badge">
+
+            <p>Open to work</p>
+
+        </span>
 
 
+        <div class = "banner">
 
-    <div class = "project-section">
-        <!--Projects-->
-        <h2 class="projects-title">Personal Projects: (Might take a second for them to load.)</h2>
+            <h1>Keillen Snider</h1>
+
+            <span>Software Engineer</span>
+
+            <img src = "https://www.svgrepo.com/show/493534/computer-and-people.svg" alt = "Computer" class = "drift-object obj1">
+
+            <img src = "https://www.svgrepo.com/show/452091/python.svg" alt = "Python logo" class = "drift-object obj2">
+
+            <img src = "https://www.svgrepo.com/show/7344/sql-file-format-symbol.svg" alt = "Sql logo" class = "drift-object obj3">
+
+            <img src = "https://www.svgrepo.com/show/308016/programmer-software-engineer-coder-software-developer.svg" alt = "Coder" class = "drift-object obj4">
+
+            <img src = "https://www.svgrepo.com/show/439171/github.svg" alt = "Github logo" class = "drift-object obj5">
+
+            <img src = "https://www.svgrepo.com/show/390272/linkedin-linked-in.svg" alt = "LinkedIn logo" class = "drift-object obj6">
 
 
-        <!--Wrapper to make it a grid-->
-        <div class = "project-grid">
+        </div>
 
-            <!--Placeholder for all projects-->
-            <div class = "project-card">
-            
-                <!--Project name-->
-                <h3>Job Tracker</h3>
-                <!--Description of the project-->
-                <p>
-                    <strong>Description:</strong> A full-stack job application tracker with user accounts.
-                    Used to track the company, role, location, status, notes, and application URLs.
+    </nav>
 
-                </p>
+
+
+    <div class = "bulletin-frame">
         
-                <br>
-                <!--Language it is written in-->
-                <p><strong>Languages/Libraries Used:</strong> Python, HTML, CSS, Flask, psycopg2, bcrypt, SQLite for the terminal version</p>
+        <div class = "bulletin-board">
 
-                <br>
-                <!--Link for test-->
-                <a href = "https://jobtracker-1nra.onrender.com" target="_blank">Test it out!</a>
-                <br><br>
-                <!--GitHub Repo-->
-                <a href = "https://github.com/KeillenSnider/JobTracker" target="_blank">GitHub Repo / Code</a>
+            <!--About section-->
+            <div class = "project-cards about">
+
+                <div class = "photo-wrap graduation">
+
+                    <div class="tack photo"></div>
+
+                    <img src = "images/2180.jpg" class = "photo">
+
+                </div>
+
+
+                <div class = "photo-wrap headshot">
+
+                    <div class="tack photo"></div>
+
+                    <img src = "images/2653.jpg" class = "photo">
+
+                </div>
+
+
+                <div class = "card about">
+
+                    <div class="tack"></div>
+
+                    <h3>About Me</h3>
+
+                    <p class = "tech-stack">Small Summary:</p>
+
+                    <div class = "hover-content">
+
+                        <p>
+
+                            I build things that work — then make them work better. 
+                            Software Engineering graduate from Sam Houston State University, 
+                            focused on full-stack web, data, and systems. 
+                            Currently seeking software engineering roles.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!--__________________________________________________________________________________-->
+
+
+            <div class = "section-label-wrap">
+            
+                <div class="tack title"></div>
+
+                <div class = "section-label">
+
+                    <h2>Personal Projects</h2>
+
+                </div>
+
             </div>
 
 
+            <div class = "project-cards personal">
 
-            <!--Placeholder for all projects-->
-            <div class = "project-card">
+                <div class = "card job-tracker">
+
+                    <div class="tack"></div>
+
+                    <h3>Job Tracker</h3>
+
+                    <p class = "tech-stack">Python, Flask, PostgreSQL, HTML, CSS</p>
+
+                    <div class = "hover-content">
+
+                        <p>
+
+                            <strong>Description:</strong> A full-stack job application tracker with user accounts.
+                            Used to track the company, role, location, status, notes, and application URLs.
+
+                        </p>
+
+                        <a href = "https://jobtracker-1nra.onrender.com" target="_blank">Test it out!</a>
+
+                        <a href = "https://github.com/KeillenSnider/JobTracker" target="_blank">GitHub Repo / Code</a>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class = "card stock-scrubber">
+
+                    <div class="tack"></div>
+
+                    <h3>Stock Scrubber</h3>
+
+                    <p class = "tech-stack">In progress:</p>
+
+                    <div class = "hover-content">
+
+                        <p>
+
+                            <strong>Description:</strong> A Python stock monitoring tool that tracks a personal 
+                            watchlist, detects fluctuations in price using a free API,
+                            and generates AI-powered alerts to explain what happened.
+
+                        </p>
+
+                        <a href = "https://stockscrubber.onrender.com" target="_blank">Not Complete! <br> Still working on it but you can check it out.</a>
+
+                        <a href = "https://github.com/KeillenSnider/StockScrubber" target="_blank">GitHub Repo / Code</a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!--__________________________________________________________________________________-->
+
+            <div class = "section-label-wrap">
             
-                <!--Project name-->
-                <h3>Stock Scrubber</h3>
-                <!--Description of the project-->
-                <p>
-                    <strong>Description:</strong> A Python stock monitoring tool that tracks a personal 
-                    watchlist, detects fluctuations in price using a free API,
-                    and generates AI-powered alerts to explain what happened.
-                </p>
-                <br>
-                <!--Language it is written in-->
-                <p><strong>Languages/Libraries Used:</strong> To be determined</p>
+                <div class="tack title"></div>
 
-                <br>
-                <!--Link for test-->
-                <a href = "https://stockscrubber.onrender.com" target="_blank">Not Complete! <br> Still working on it but you can check it out.</a>
-                <br><br>
-                <!--GitHub Repo-->
-                <a href = "https://github.com/KeillenSnider/StockScrubber" target="_blank">GitHub Repo / Code</a>
+                <div class = "section-label">
+
+                    <h2>Client Projects</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class = "project-cards client">
+
+                
+
             </div>
 
 
         </div>
     </div>
 
-    <!--Contact info-->
-    <div class = "contact-info">
-        <!--Header and information-->
-        <h2 class="contact-title">Contact Information</h2>
-        <p>Email: <a href="mailto:keillensnider24@gmail.com">keillensnider24@gmail.com</a> </p>
+
+    <!--__________________________________________________________________________________-->
+
+
+    <div class = "wood-box">
+
+        <div class = "lid">
+
+            <h3>Contact Information</h3>
+
+        </div>
+
+        <div class = "open-top">
+
+            <div class = "contact-info">
+
+                <a href="https://github.com/KeillenSnider" class = "wood-block github" target="_blank">GitHub Link</a>
+
+                <a href="https://www.linkedin.com/in/keillen-snider-80673b381/?skipRedirect=true" class = "wood-block linkedin" target="_blank">LinkedIn Link</a>
+
+                <a href="mailto:keillensnider24@gmail.com" class = "wood-block email" >Email: keillensnider24@gmail.com</a>
+
+            </div>
+
+        </div>
+
     </div>
+
+
+
+
+    <script src = "script.js"></script>
 
 </body>
 </html>
