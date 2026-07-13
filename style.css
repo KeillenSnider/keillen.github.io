@@ -80,6 +80,12 @@ img{
 
 }
 
+*{ 
+  
+  box-sizing: border-box; 
+
+}
+
 
 
 /*_______________________________________________________________________________________________________________________*/
@@ -125,13 +131,13 @@ img{
 }
 
 
-@media(max-width: 750px){
+@media(max-width: 980px){
 
   .navbar{
 
     flex-direction: column;
 
-    padding-top: 40px;
+    padding-top: 70px;
 
   }
 
@@ -164,7 +170,7 @@ img{
 
 }
 
-@media(max-width: 750px){
+@media(max-width: 980px){
 
   .status-badge{
 
@@ -316,7 +322,7 @@ img{
 /*_______________________________________________________________________________________________________________________*/
 
 /*Free-positioning heights: desktop/wide screens only*/
-@media (min-width: 751px){
+@media (min-width: 981px){
 
   .project-cards.about{
 
@@ -349,7 +355,7 @@ img{
 
     position: absolute;
 
-    width: 100;
+    width: 200px;
 
   }
 
@@ -433,7 +439,7 @@ img{
 
 /*_______________________________________________________________________________________________________________________*/
 
-@media(max-width: 750px){
+@media(max-width: 980px){
 
   .section-label-wrap{
 
@@ -465,7 +471,7 @@ img{
 
 }
 
-@media(min-width: 751px){
+@media(min-width: 981px){
 
   .section-label-wrap{
 
@@ -627,7 +633,7 @@ img{
 /*_______________________________________________________________________________________________________________________*/
 
 /*Where the cards are positioned: desktop/wide screens only*/
-@media (min-width: 751px){
+@media (min-width: 981px){
 
   .section-label-wrap{
 
@@ -671,13 +677,17 @@ img{
 /*_______________________________________________________________________________________________________________________*/
 
 /*Mobile: fall back to normal stacked flow, centered*/
-@media (max-width: 750px){
+@media (max-width: 980px){
 
   .card{
 
     position: static;
 
     margin: 20px auto;
+
+    width: 90%;
+
+    max-width: 300px;
 
   }
 
@@ -879,6 +889,37 @@ img{
   transform: rotateX(-100deg);
 
   border: 1px solid rgb(248, 227, 152);
+
+}
+
+/*Mobile contact box*/
+@media(max-width: 980px){
+
+  .wood-box{
+
+    width: 90%;
+
+    max-width: 320px;
+
+  }
+
+  .open-top{
+
+    padding: 20px 15px;
+
+  }
+
+  .wood-block{
+
+    display: block;
+
+    width: 100%;
+
+    text-align: center;
+
+    margin: 10px 0;
+
+  }
 
 }
 
