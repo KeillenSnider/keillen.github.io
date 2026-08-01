@@ -344,7 +344,7 @@ img{
 
     position: relative;
 
-    height: 200px
+    height: 500px
 
   }
 
@@ -668,6 +668,14 @@ img{
 
     /*How much offcenter*/
     transform: translateX(50%);
+
+  }
+
+  .card.probation{
+
+    top: 100px;
+
+    left: 50%;
 
   }
 
