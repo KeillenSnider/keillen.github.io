@@ -650,6 +650,16 @@ img{
 
   }
 
+  .card.anime-tracker{
+
+  top: 100px;
+
+  left: 30%;
+
+  transform: translateX(calc(-150% - 10px));
+
+  }
+
   .card.job-tracker{
 
     top: 110px;
